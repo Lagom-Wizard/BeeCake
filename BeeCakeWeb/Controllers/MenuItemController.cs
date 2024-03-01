@@ -20,6 +20,7 @@ public class MenuItemController : Controller
         var menuItemList = _unitOfWork.MenuItem.GetAll(includeProperties: "Category,CakeType");
         return Json(new { data = menuItemList });
     }
+    //delete from menuItem
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
