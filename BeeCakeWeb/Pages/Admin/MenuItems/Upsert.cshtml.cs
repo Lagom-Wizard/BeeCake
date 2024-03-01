@@ -10,7 +10,7 @@ namespace BeeCakeWeb.Pages.Admin.MenuItems;
 public class UpsertModel : PageModel
 {
     private readonly IUnitOfWork _unitOfWork;
-    private readonly IWebHostEnvironment _hostEnvironment;
+    private readonly IWebHostEnvironment _hostEnvironment; //for images
     public MenuItem MenuItem { get; set; }
     public IEnumerable<SelectListItem> CategoryList { get; set; }
     public IEnumerable<SelectListItem> CakeTypeList { get; set; }
