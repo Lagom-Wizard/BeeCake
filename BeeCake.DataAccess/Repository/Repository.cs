@@ -1,5 +1,5 @@
 ﻿using BeeCake.DataAccess.Repository.IRepository;
-using BeeCakeWeb.DataAccess.Data;
+using BeeCake.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

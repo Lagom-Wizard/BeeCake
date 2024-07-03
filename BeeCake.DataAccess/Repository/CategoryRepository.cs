@@ -1,6 +1,6 @@
 ﻿using BeeCake.DataAccess.Repository.IRepository;
 using BeeCake.Models;
-using BeeCakeWeb.DataAccess.Data;
+using BeeCake.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
